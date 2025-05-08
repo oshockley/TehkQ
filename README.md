@@ -24,3 +24,27 @@ THEN I can start a new quiz
 - Progress to the next question once answer is clicked
 - Final Score is visible once all questions are answered 
 - You are given the option to retake the quiz 
+
+## Tech Stack
+- Frontend: React/HTML/CSS
+- Testing: Cypress
+- Other Tools: Node.js/Vite
+
+## Installation/Testing
+End-to-end testing using Cypress
+```bash
+1. Clone the repository
+
+git clone https://github.com/oshockley/TehkQ.git
+
+2. Install dependenices/Start App
+cd path/to/your/folder
+npm install
+npm run start:dev
+
+3. Run testing in Cypress - Cypress.config.js
+npx cypress open 
+
+## Walkthrough Video
+
+
