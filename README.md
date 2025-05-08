@@ -32,7 +32,7 @@ THEN I can start a new quiz
 
 ## Installation/Testing
 End-to-end testing using Cypress
-```bash
+```
 1. Clone the repository
 
 git clone https://github.com/oshockley/TehkQ.git
@@ -45,6 +45,7 @@ npm run start:dev
 3. Run testing in Cypress - Cypress.config.js
 npx cypress open 
 
+```
 ## Walkthrough Video
 
-
+https://drive.google.com/file/d/1IE37y3j08IVNnRG7G9cCBpGrl3KVF-p8/view?usp=sharing
