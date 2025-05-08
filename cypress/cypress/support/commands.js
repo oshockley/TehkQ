@@ -24,8 +24,12 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+Cypress.Commands.add('startQuiz', () => {
+    cy.findByRole('button', { name: /start quiz/i }).click();
+});
+
 Cypress.Commands.add('completeQuiz', () => {
-    for(let i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i++) {
         cy.get('.btn-primary').first().click();
         cy.wait(300);
     }
